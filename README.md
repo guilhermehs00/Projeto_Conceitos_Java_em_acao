@@ -1,4 +1,6 @@
 Sistema de Coleta e Análise de Dados de GPS com Consulta a Regiões
+
+
 Este projeto é uma aplicação Android desenvolvida para coletar dados de GPS e realizar consultas de regiões geográficas com base em coordenadas de latitude e longitude. A aplicação foi projetada para operar em tempo real, gerenciando múltiplas threads para diferentes tarefas, como coleta de dados, consultas de regiões em fila e banco de dados, e processamento criptográfico dos resultados.
 
 Funcionalidades Principais
