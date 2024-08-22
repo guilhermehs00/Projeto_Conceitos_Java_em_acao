@@ -22,18 +22,12 @@ ConsultarFila: Verifica regiões em uma fila local para determinar a proximidade
 ConsultarBD: Consulta o banco de dados para verificar a proximidade de regiões armazenadas remotamente.
 CriptografarDados: Processa e criptografa os dados antes de adicioná-los à fila de regiões.
 AdicionarFila: Adiciona as regiões processadas e criptografadas à fila para monitoramento contínuo.
-Justificativa Técnica
-A estrutura do sistema foi desenhada considerando a Lei de Amdahl, que descreve as limitações de desempenho ao paralelizar tarefas. As tarefas são divididas para aproveitar ao máximo a execução em paralelo, mas mantendo uma atenção especial às partes do código que devem ser executadas sequencialmente. Esta abordagem garante que o sistema funcione de forma eficiente, mesmo em dispositivos com recursos limitados.
+
 
 Tecnologias Utilizadas
 Java: Linguagem principal de desenvolvimento.
 Android SDK: Para desenvolvimento da aplicação Android.
 Firebase Firestore: Para armazenamento e consulta de dados em tempo real.
 Multithreading: Para gerenciamento eficiente de tarefas paralelas.
-Como Executar
-Clone o repositório para sua máquina local.
-Importe o projeto no Android Studio.
-Configure as chaves do Firebase no arquivo google-services.json.
-Compile e execute o projeto em um dispositivo Android ou emulador.
-Contribuições
+
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um issue ou enviar um pull request.
